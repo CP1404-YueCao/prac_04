@@ -3,6 +3,7 @@ FILENAME = "subject_data.txt"
 
 
 def main():
+    """Read the subject data and display it"""
     data = get_data()
     print(data)
 
