@@ -24,6 +24,7 @@ def get_data():
     input_file.close()
     return data
 
+
 def display_subjects(data):
     """Print the data neatly"""
     for subject_data in data:
