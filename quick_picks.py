@@ -21,6 +21,8 @@ def main():
             quick_picks.append(number)
         quick_picks.sort()
 
+        print(" ".join("{:2}".format(number) for number in quick_picks))
+
 
 main()
 
